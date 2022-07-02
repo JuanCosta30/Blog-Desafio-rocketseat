@@ -1,0 +1,229 @@
+:root {
+     font-size: 62.5%;
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+*{
+      margin:0;
+      padding: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+}
+body{
+     /*700*/
+    /*400 e 700*/
+    font-size: 1.6rem;
+    background-color: var(--light-purple);
+}
+section#header{
+      background-color: var(--purple-bg);
+      border-bottom: 0.5rem solid var(--green);
+}
+div.wrapper {
+      width:1169.14px;
+      margin-inline: auto;
+      padding-top: 6.4rem;
+      
+}
+.logo{
+    margin-right: 3.7rem;
+}
+nav.navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom:6.4rem;
+}
+nav.navbar ul{
+    display: flex;
+    gap: 3.2rem;
+    color: white;
+}
+nav.navbar ul li .home{
+    border-left: 2px solid var(--green);
+    padding-left: 0.2rem;
+    font-weight: 700;
+    
+}
+nav.navbar ul li a:hover{
+    border-left: 2px solid var(--green);
+    padding-left: 0.2rem;
+    font-weight: 700;
+    transition: all 0.1s;
+    
+}
+nav.navbar ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+div.pesquisa{
+   display:flex;
+   align-items: center;
+   position: relative;
+
+}
+div.pesquisa input{
+    width:299px;
+    height:45px;
+    border-radius: 5px;
+    border:none;
+    background-color:var(--dark-bg);
+    
+    
+}
+div.pesquisa input[type="search"]{
+    padding-left:2.5rem;
+    color: white;
+    outline: none;
+    
+}
+div.pesquisa ::placeholder{
+    color: white;
+    font-size: 1.4rem;
+    line-height: 16px;
+}
+button.button{
+    padding-inline:2rem;
+    background-color: var(--button-bg);
+    height: 43px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+
+}
+
+div.container{
+    display:grid;
+    grid-template-columns:57rem 1fr;
+    column-gap: 3rem;
+    
+}
+div.container  h1{
+    font-family: 'Poppins', sans-serif;
+    line-height: 54px;
+    font-size: 3.6rem;
+    color:var(--button-bg);
+    padding-bottom: 1.6rem;
+}
+div.container p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size:1.8rem;
+    line-height: 27px;
+    width: 46.9rem;
+    color: white;
+    padding-bottom: 2.4rem;
+}
+div.container a{
+    display:flex;
+    align-items:center;
+    gap: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size:1.6rem;
+    line-height: 27px;
+    color:var(--button-bg);
+}
+div.container img{
+    padding-bottom:6.9rem;
+    width: 57.0rem;
+    
+}
+section.body-conteudos{
+    display: flex;
+    flex-direction: row;
+    gap: 13rem;
+}
+.body-div{
+    display:flex;
+    flex-direction:column;
+    gap: 1.59rem;
+    width: 569px;
+    margin-bottom:6.37rem;
+}
+.body-div img{
+    width: 56.9rem;
+}
+.body-div h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 19px;
+}
+.body-div h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 36px;
+}
+.body-div p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+.body-aside{
+    display:flex;
+    flex-direction:column;
+    gap: 2.39rem;
+    width: 472px;
+}
+.body-aside h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 19px;
+}
+.body-aside h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 36px;
+}
+.body-aside p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+.body-aside-div{
+    border-bottom:1px solid #F2E7FA;
+    padding-bottom:2.39rem;
+    
+}
+.body-aside-div  h2{
+    padding-block:0.8rem;
+}
+.body-aside-div-div h2{
+    padding-block:0.8rem;
+}
+section.body-conteudo-footer{
+    display: flex;
+    gap: 2.8rem;
+    padding-bottom:6.35rem;
+}
+
+section.body-conteudo-footer div h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 19px;
+}
+section.body-conteudo-footer div h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 36px;
+}
+section.body-conteudo-footer div p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+.body-conteudo-footer-div{
+    display: flex;
+    flex-direction:column;
+    gap: 0.8rem;
+}
